@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="running-competation">
+    <div class="container">
+      <h1>Kim birinchi bo-rish-ga!</h1>
+      <form class="site-form" action="get">
+        <label> Masofa
+          <input class="form-input" type="text" name="numberInput" placeholder=" (km)">
+          <button class="btn" type="submit">Hisobla</button>
+        </label>
+      </form>
+      <ul class="form__list">
+        <li class="form__list-item">
+          <img class="list-item__img_walker" src="./images/pedesterian.png" alt="pedesterian" height="150" width="150">
+          <p class="list-item__p-walker">
+            Piyoda
+          </p> 
+          <div class="result-box-walker"> </div>
+        </li>
+        <li class="form__list-item">
+          <img class="list-item__img_bike" src="./images/bike-rider.jpg" alt="bike driver" height="150" width="150">
+          <p class="list-item__p-bike">
+            Velosiped
+          </p>
+          <div class="result-box-bike"> </div>
+        </li>
+        <li class="form__list-item">
+          <img class="list-item__img_driver" src="./images/car.jpg" alt="car driver" height="150" width="150">
+          <p class="list-item__p-car">
+            Mashina
+          </p>
+          <div class="result-box-car"> </div>
+        </li>
+        <li class="form__list-item">
+          <img class="list-item__img_plane" src="./images/airplane.jpg" alt="air plane" height="150" width="150">
+          <p class="list-item__p-plane">
+            Samolyot
+          </p>
+          <div class="result-box-plane"> </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
